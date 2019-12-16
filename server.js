@@ -4,7 +4,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 
 mongoose
-	.connect('mongodb+srv://AJ:Adarsh123@cluster0-r9caq.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+	.connect('mongodb+srv://jhon:Lvc0wFz6L6gh24eJ@movies-uw6xa.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
 	.then(() => console.log("Connected to MongoDB"))
 	.catch(err => console.log(err));
 
