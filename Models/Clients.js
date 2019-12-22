@@ -3,8 +3,8 @@ const Schema = mongoose.Schema;
 
 const ClientsSchema = new Schema({
 	date:{
-		type: String,
-		require: false
+		type: [String],
+		default: []
 	},
 	name: {
 		type: String,
